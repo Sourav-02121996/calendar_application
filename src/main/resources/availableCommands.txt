@@ -1,0 +1,19 @@
+create calendar --name <calName> --timezone area/location
+use calendar --name <name-of-calendar>
+edit calendar --name <name-of-calendar> --property <property-name> <new-property-value>
+copy event <eventName> on <dateStringTtimeString> --target <calendarName> to <dateStringTtimeString>
+copy events on <dateString> --target <calendarName> to <dateString>
+copy events between <dateString> and <dateString> --target <calendarName> to <dateString>
+create event <subject> from <startDateTime> to <endDateTime> [-d <description>] [-p] [-l <location>]
+create event <subject> on <startDate> [-d <description>] [-p] [-l <location>]
+create event <subject> on <startDate> repeats <days> for <N> times [-d <description>] [-p] [-l <location>]
+create event <subject> on <startDate> repeats <days> until <endRepeat> [-d <description>] [-p] [-l <location>]
+create event <subject> from <startDateTime> to <endDateTime> repeats <days> for <N> times [-d <description>] [-p] [-l <location>]
+create event <subject> from <startDateTime> to <endDateTime> repeats <days> until <endRepeatDate> [-d <description>] [-p] [-l <location>]
+edit event <property> <subject> from <startDate> to <endDate> with <newPropertyValue>
+edit events <property> <subject> from <startDate> with <newPropertyValue>
+edit events <property> <subject> <newPropertyValue>
+print events on <startDate>
+print events from <startDateTime> to <endDateTime>
+show status on <startDate>
+export cal <filename>.csv

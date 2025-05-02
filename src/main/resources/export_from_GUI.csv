@@ -1,0 +1,4 @@
+subject,startDate,startTime,endDate,endTime,allDayEvent,description,location,private
+TeamMeetup,04/14/2025,06:00 PM,04/14/2025,07:00 PM,False,meeting,Boston,True
+OfficeHours,04/16/2025,12:00 AM,04/17/2025,12:00 AM,True,discussion,Boston,True
+Teamevent,04/21/2025,06:00 PM,04/26/2025,07:00 PM,False,survey,Boston,False

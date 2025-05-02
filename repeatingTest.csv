@@ -1,0 +1,4 @@
+subject,startDate,startTime,endDate,endTime,allDayEvent,description,location,private
+repeat,01/01/2025,08:00 AM,01/01/2025,10:00 AM,False,Workshop,Boston,False
+repeat,01/08/2025,08:00 AM,01/08/2025,10:00 AM,False,Workshop,Boston,False
+repeat,01/15/2025,08:00 AM,01/15/2025,10:00 AM,False,Workshop,Boston,False
